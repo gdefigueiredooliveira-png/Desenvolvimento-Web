@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML</title>
+        <link rel="shortcut icon" href="png-clipart-responsive-web-design-html-world-wide-web-consortium-world-wide-web-angle-text-thumbnail.png">
+    </head>
+    <body>
+     <form action = "action_page.php">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+                <label for ="fname">Primeiro nome: </label><br>
+                <input type="text" id="fname" name="fname" maxlength="20" size="20" placeholder="Nome" required><br>
+                
+                <label for = "Iname">Último nome: </label><br>
+                <input type = "text" id ="Iname" name="Iname" maxlength="20" size="20" placeholder="Último Nome" required><br>
+                <form action = "action_page.php">
+                    <label for ="email">Email: </label><br>
+                    <input type="text" id="email" name="email" placeholder="exemplo@exemplo.com" required><br>
+                    <form action = "action_page.php">
+                    <label for ="email">Senha: </label><br>
+                    <input type="password" name="Senha" id="campos" size="20" maxlength="10" placeholder="abc@123"></p>
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade" min="0" max="120" placeholder="0" required><br>
+                 </form>
+
+                </form>
+
+                <label for="datahora">Data e Hora:</label><br>
+                <input type="datetime-local" id="datahora" name="datahora"><br>
+                <p>Qual sua linguagem preferida?</p>
+                <form action="page.php">
+                    <input type="checkbox" id="html" name="fav_language" value="HTML" required>
+                    <label for="html">HTML</label><br>
+                    
+                    <input type="checkbox" id="css" name="fav_language" value="CSS" required>
+                    <label for="css">CSS</label><br>
+                    
+                    <input type="checkbox" id="javascript" name="fav_language" value="JavaScript" required>
+                    <label for="javascript">JavaScript</label><br>
+
+                    <label for="cor">Escolha uma Cor:</label>
+                    <input type="color" id="cor" name="cor" required><br><br>
+
+                    <label for="arquivo">Carregar Arquivo:</label>
+                    <input type="file" id="arquivo" name="arquivo" required><br><br>
+
+                    <label for="pais">País:</label>
+                    <select id="pais" name="pais" required>
+                        <option value="brasil">Brasil</option>
+                        <option value="eua">Estados Unidos</option>
+                        <option value="japao">Japão</option>
+                    </select><br><br>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Digite sua mensagem aqui..." required></textarea><br><br>
+                </form>
+                <input type="submit" value="Enviar"><br><br>
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar Formulário</button>
+            </fieldset>
+        </form>
+        <!--
+            <input type="radio">
+            <input type="checkbox">
+            
+            <input type="button">
+        -->
+        <!--<p>Qual sua linguagem preferida?</p>
+         <form action="page.php">
+            <input type="radio" id="html" name="fav_language" value="HTML" required>
+            <label for="html">HTML</label><br>
+
+            <input type="radio" id="css" name="fav_language" value="CSS" required>
+            <label for="css">CSS</label><br>
+
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript" required>
+            <label for="javascript">JavaScript</label><br><br>
+         </form> 
+        <label for ="hora">Horário de atendimento:</label>
+        <input type="time" id="hora" name="hora">
+        <label for ="data">Data de atendimentos:</label>
+        <input type="date" id="data" name="data">-->
