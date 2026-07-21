@@ -1,4 +1,4 @@
-body {background-color:black;}
-h1 {color:blueviolet}
-p{color:aqua}
+body {background:url("fundo.avif")no-repeat;}
+h1 {text-align:center;font-weight:bold;font-style:italic; color:blueviolet }
+p{border-style:double;text-align:left; color:aqua }
 #escuro{color:blue}
